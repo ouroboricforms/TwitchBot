@@ -17,8 +17,8 @@ var options = {
         reconnect: true
     },
     identity: {
-        username: "mattsbabiesghost",
-        password: "oauth:v9acr55q5oabors9q89nk8wn0wfrli"
+        username: "user",
+        password: "ouath:"
     },
     channels: ["its_wiked"]
 };
