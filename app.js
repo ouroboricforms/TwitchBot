@@ -27,7 +27,7 @@ var client = new tim.client(options);
 client.connect();
 
 client.on('chat', function(channel, user, message, self){
-    if(message === "!quote"){
+    if(message === "!mattfacts"){
         client.action("its_wiked", randomItem)
     }
 });
