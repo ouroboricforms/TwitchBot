@@ -32,8 +32,13 @@ var options = {
         reconnect: true
     },
     identity: {
+<<<<<<< HEAD
         username: "mattsbabiesghost",
         password: "oauth:"
+=======
+        username: "user",
+        password: "ouath:"
+>>>>>>> 47abc6d4a7331e09529c77bb8bccb55dae81b4ab
     },
     channels: ["ouroboricform"]
 };
@@ -50,5 +55,10 @@ client.on('chat', function(channel, user, message, self){
 });
 
 client.on('connected', function(address, port){
+<<<<<<< HEAD
     client.say("ouroboricform", "Hello I'm Matt's dead baby, and you are a scrub.");
 });
+=======
+    client.action("its_wiked", "Hell I'm matts dead baby, and you are a scrub. Mod me Matt");
+});
+>>>>>>> 47abc6d4a7331e09529c77bb8bccb55dae81b4ab
